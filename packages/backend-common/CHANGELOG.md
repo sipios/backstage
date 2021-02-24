@@ -1,5 +1,11 @@
 # @backstage/backend-common
 
+## 0.5.5
+
+### Patch Changes
+
+- 497859088: Add optional `logClientErrors` to errorHandler to log 4XX errors
+
 ## 0.5.4
 
 ### Patch Changes

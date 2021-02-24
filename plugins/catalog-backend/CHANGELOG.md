@@ -1,5 +1,15 @@
 # @backstage/plugin-catalog-backend
 
+## 0.6.4
+
+### Patch Changes
+
+- 12d8f27a6: Add version `backstage.io/v1beta2` schema for Template entities.
+- Updated dependencies [12d8f27a6]
+- Updated dependencies [497859088]
+  - @backstage/catalog-model@0.7.3
+  - @backstage/backend-common@0.5.5
+
 ## 0.6.3
 
 ### Patch Changes
