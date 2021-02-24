@@ -31,6 +31,7 @@ export default async function createPlugin({
   logger,
   config,
   database,
+  reader,
 }: PluginEnvironment) {
   const cookiecutterTemplater = new CookieCutter();
   const craTemplater = new CreateReactAppTemplater();
@@ -56,5 +57,6 @@ export default async function createPlugin({
     dockerClient,
     database,
     catalogClient,
+    urlReader: reader,
   });
 }
